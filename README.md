@@ -325,7 +325,7 @@ There are now 4,411,435 total rides included within the analysis.
 
 ## Analyse & Share
 
-**Number of Members vs Casual Riders**
+####Number of Members vs Casual Riders
 ```sql
 SELECT member_casual,
        COUNT(DISTINCT ride_id) AS total_rides
@@ -340,7 +340,7 @@ This shows that the majority of Cyclistic users are members.
 <br><br><br>
 
 
-**Total Average Ride Length: Members vs Casual**
+####Total Average Ride Length: Members vs Casual
 ```sql
 SELECT member_casual,
        AVG(ride_length_mins) AS avg_ride_length_mins,
@@ -356,7 +356,7 @@ GROUP BY member_casual;
 This shows that on average casual riders had the longest rides (19.8 minutes) compared to members (12 minutes). 
 <br><br><br>
 
-**Type of bike used: Members vs Casual**
+####Type of bike used: Members vs Casual
 ```sql
 SELECT rideable_type,
       member_casual,
@@ -371,7 +371,7 @@ This shows that both members and casual users prefer electric bikes.
 However, it would be useful to know Cyclistic’s stock of how many electric bikes in comparison to classic bikes they have available for users to use. 
 <br><br><br>
 
-**Average Ride Length by Bike Type**
+####Average Ride Length by Bike Type
 ```sql
 SELECT rideable_type,
        AVG(ride_length_mins) AS avg_ride_length_mins
@@ -384,7 +384,7 @@ This shows that overall rides using classic bikes had a higher average ride leng
 <br><br><br>
 
 
-**Peak Times (start hour of rides) and Average Ride Lengths: Members vs Casual Riders**
+####Peak Times (start hour of rides) and Average Ride Lengths: Members vs Casual Riders
 <br>
 
 ```sql
@@ -410,7 +410,7 @@ The chart also shows that for casual riders, there was a peak average length of 
 <br><br><br>
 
 
-**Peak Days of Use and Average Ride Lengths: Members vs Casual Riders**
+####Peak Days of Use and Average Ride Lengths: Members vs Casual Riders
 
 ```sql
 SELECT weekday_name,
@@ -435,7 +435,7 @@ The chart also shows that although ride of length remained more consistent for m
 <br><br<br>
 
 
-**Peak Months of Use and Average Ride Lengths: Members vs Casual:**
+####Peak Months of Use and Average Ride Lengths: Members vs Casual:
 
 ```sql
 SELECT month_name,
@@ -461,7 +461,7 @@ It also shows that average ride lengths for both members and casual riders were 
 <br><br><br>
 
 
-**Most used start stations & their average ride lengths - members vs casual users**
+####Most used start stations & their average ride lengths - members vs casual users
 
 ```sql
 --members:
