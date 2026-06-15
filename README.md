@@ -530,7 +530,7 @@ GROUP BY start_station_name;
 - Create membership offers where longer ride durations are cheaper to entice casual members who tend to ride for longer periods of time. 
 <br><br>
 
-#### How can Cyclistic use digital media to influence casual riders to become members?
+#### 3. How can Cyclistic use digital media to influence casual riders to become members?
 <br>
 - Target and time social media and online advertisement during commuting and rush hours. <br>
 - Offline advertisements of membership offers at bus stops, train stations and other commuting hubs. <br> 
