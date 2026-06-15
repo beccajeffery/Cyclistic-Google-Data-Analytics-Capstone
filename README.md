@@ -22,7 +22,6 @@ Customers who purchase single-ride or full-day passes are referred to as casual 
 
 ## Prepare 
 For this case study, I used 12 months of Cyclistic’s 2025 bike ride data (01/01/2025 to 31/01/2025) from the following Divvy database: https://divvy-tripdata.s3.amazonaws.com/index.html.
-It has been made available by Motivate International Inc. under this license.
 <br><br>
 
 IS THE DATA ROCCC?
@@ -188,10 +187,10 @@ FROM all_trips_2025
 WHERE (end_station_name IS NULL OR end_station_name = '');
 ```
 This showed that:
-There are 943,271 rows that had null/missing values for both start_station_name.
-There are 1,019,816 rows that had null/missing values for both end_station_name.
+There are 943,271 rows that had null/missing values for start_station_name.
+There are 1,019,816 rows that had null/missing values for end_station_name.
 <br>
-Rides that had null/missing values in station will be excluded from any relevant analysis.
+Rides that had null/missing values in station name columns will be excluded from any relevant analysis.
 <br><br>
 
 **Checking for Invalid Rides**<br>
@@ -519,21 +518,28 @@ GROUP BY start_station_name;
 **Summary**
 <br>
 
+<img width="627" height="499" alt="member vs casual summary" src="https://github.com/user-attachments/assets/13462025-36b7-4e71-8ab9-ea311fba53e7" />
 
 
 <br><br>
 #### 2. Why would casual riders buy Cyclistic annual memberships?
-<br>
-- Casual members possibly visitors/tourists to Chicago. Therefore expand nationwide to other cities to entice casual riders living throughout North America to become a member. <br>
-- Casual members possibly commute through other means (driving, public transport etc.). Therefore advertise and emphasise the benefits of Cyclistic, healthy lifestyles, convenience, saving costs. <br>
-- Introducing tourist/seasonal memberships. <br>
-- Create membership offers where longer ride durations are cheaper to entice casual members who tend to ride for longer periods of time. 
+- Casual members possibly visitors/tourists to Chicago. Therefore expand nationwide to other cities to entice casual riders living throughout North America to become a member. 
 <br><br>
+- Casual members possibly commute through other means (driving, public transport etc.). Therefore advertise and emphasise the benefits of Cyclistic, healthy lifestyles, convenience, saving costs. 
+<br><br>
+- Introducing tourist/seasonal memberships. 
+<br><br>
+- Create membership offers where longer ride durations are cheaper to entice casual members who tend to ride for longer periods of time. 
+<br>
 
 #### 3. How can Cyclistic use digital media to influence casual riders to become members?
+- Target and time social media and online advertisement during commuting and rush hours. 
+<br><br>
+- Offline advertisements of membership offers at bus stops, train stations and other commuting hubs. 
+<br><br>
+- Offline Advertisements of membership offers at tourist hotspots and scenic areas where casual members are likely to be riding. 
+<br><br>
+- Analyse certain days likely with heavier traffic/commuting problems and target adverts accordingly. 
+<br><br>
+- Advertise memberships/membership offers in peak seasons (warmer months) and weekends. 
 <br>
-- Target and time social media and online advertisement during commuting and rush hours. <br>
-- Offline advertisements of membership offers at bus stops, train stations and other commuting hubs. <br> 
-- Offline Advertisements of membership offers at tourist hotspots and scenic areas where casual members are likely to be riding. <br>
-- Analyse certain days likely with heavier traffic/commuting problems and target adverts accordingly. <br>
-- Advertise memberships/membership offers in peak seasons (warmer months) and weekends. <br>
