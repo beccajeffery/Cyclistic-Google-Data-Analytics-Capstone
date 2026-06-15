@@ -511,4 +511,29 @@ GROUP BY start_station_name;
 
 
 ## Conclusions and Recommendations
+
 <br><br>
+#### 1. How do annual members and casual riders use Cyclistic bikes differently?
+<br>
+
+**Summary**
+<br>
+
+
+
+<br><br>
+#### 2. Why would casual riders buy Cyclistic annual memberships?
+<br>
+- Casual members possibly visitors/tourists to Chicago. Therefore expand nationwide to other cities to entice casual riders living throughout North America to become a member. <br>
+- Casual members possibly commute through other means (driving, public transport etc.). Therefore advertise and emphasise the benefits of Cyclistic, healthy lifestyles, convenience, saving costs. <br>
+- Introducing tourist/seasonal memberships. <br>
+- Create membership offers where longer ride durations are cheaper to entice casual members who tend to ride for longer periods of time. 
+<br><br>
+
+#### How can Cyclistic use digital media to influence casual riders to become members?
+<br>
+- Target and time social media and online advertisement during commuting and rush hours. <br>
+- Offline advertisements of membership offers at bus stops, train stations and other commuting hubs. <br> 
+- Offline Advertisements of membership offers at tourist hotspots and scenic areas where casual members are likely to be riding. <br>
+- Analyse certain days likely with heavier traffic/commuting problems and target adverts accordingly. <br>
+- Advertise memberships/membership offers in peak seasons (warmer months) and weekends. <br>
