@@ -542,4 +542,5 @@ GROUP BY start_station_name;
 - Analyse certain days likely with heavier traffic/commuting problems and target adverts accordingly. 
 <br><br>
 - Advertise memberships/membership offers in peak seasons (warmer months) and weekends. 
-<br>
+<br><br>
+- Collect gender and age data of users. With this data it will be possible to analyse and gain insights such as whether a specific age group prefer memberships or casual rides. Can also determine if students use Cyclistic services for commuting and offer student memberships.
